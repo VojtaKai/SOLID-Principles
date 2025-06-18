@@ -2,7 +2,7 @@
 Principles of scalable and extendable OOP code
 
 ## Docs:
-[SOLID Article LINK](https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design#dependency-inversion-principle)
+[SOLID Article](https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design#dependency-inversion-principle)
 
 ## S - Single-responsibility Principle
 - A class should have a single responsibility.
@@ -26,4 +26,4 @@ Principles of scalable and extendable OOP code
 
 ## D - Dependency Inversion Principle
 - Entities must depend on abstractions, not on concretions. It states that the high-level module must not depend on the low-level module, but they should depend on abstractions.
-- High level classes should use broder types in the constructor (typically abstract classes, interfaces or base classes) in the contructor instead of using multiple types that are allowed (ClassA | ClassB). It doesn't really matter which class it is as long as the interface you expect is defined. General is better than concrete. Also forces you to use inheritence properly / extensions in the classes which are being injected.
+- High level classes should use broader types in the constructor (typically abstract classes, interfaces or base classes) in the contructor instead of using multiple types that are allowed (ClassA | ClassB). It doesn't really matter which class it is as long as the interface you expect is defined and implemented. General is better than concrete (because it is more flexible). Also forces you to use inheritence / extensions properly in the classes which are being injected.
